@@ -14,13 +14,13 @@ Met het lezen van het csv bestand begonnen we ieder met het uitwerken van een si
 
 Aangezien er geen data beschikbaar is van users hebben we deze zelf gemaakt; de zogenaamde "simulated users". De user krijgt een random tag mee en een aantal gerechten met deze tag die dan als lekker worden verklaard.
 
-Voor het voorspellen of een gerecht lekker wordt gevonden of niet zijn er eerst users nodig die een tag en een aantal gerechten met dezelfde tag mee meekrijgen. Met de "simulated users" kan de train matrix worden opgesteld. Hierin worden twee matrixen horizontaal gecombineerd. In de eerste matrix staat de pivottabel van de tags die in de gelieve gerechten van een user zitten. In de tweede matrix staan de tags van een gelieve gerecht en een random (ofwel niet lekker) gerecht van de user. Respectievelijk worden deze in een y kolom met 1 en 0 geclassificeerd. 
+Voor het voorspellen of een gerecht lekker wordt gevonden of niet zijn er eerst users nodig die een tag en een aantal gerechten met dezelfde tag mee meekrijgen. Met de "simulated users" kan de train matrix worden opgesteld. Hierin worden twee matrixen horizontaal gecombineerd. In de eerste matrix staat de pivottabel van de tags die in de gelieve gerechten van een user zitten. In de tweede matrix staan de tags van een gelieve gerecht (one out) en een random (ofwel niet lekker) gerecht van de user. Respectievelijk worden deze in een y kolom met 1 en 0 geclassificeerd; lekker en niet lekker. Verder zijn er nog twee kolommen voor visualisatie; Randomgerecht en One Out
 
-#### Project 2: Uitbreiding Foodboost
+### Project 2: Uitbreiding Foodboost
 
-#### Project 3: Cofano
+### Project 3: Cofano
 
-#### Project 4: Uitbreiding Cofano
+### Project 4: Uitbreiding Cofano
 
 
 
