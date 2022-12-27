@@ -34,3 +34,13 @@
 
 ## Add any other assignment you feel is evidence of your abilities
 
+
+- Reflectie contributie groepsprojecten
+- Reflectie eigen leerobjecten
+  - Predictive Analytics
+  - Domain Knowledge
+  - Data Preprocessing
+  - Communication
+- Evalutatie groepsproject als geheel
+
+
