@@ -35,7 +35,7 @@ In het eerste project werkte we aan een model dat, aan de hand van een tag van e
 - Reflectie eigen leerobjecten
   - Predictive Analytics
 
-    Met het lezen van het csv bestand begonnen we ieder met het uitwerken van een simpel model om te begrijpen hoe een train, (validate,) test model in       elkaar zit. Een voorbeeld hiervan is een [lineair regressie model voor het voorspellen van het aantal gram verzadigd vet in een gerecht op basis van     de hoeveelheid gram vet in het gerecht](https://github.com/HiddeHaagse/Minor-Applied-Data-     Science/blob/main/Lineair%20regressie%20model%20vet%20en%20verzadigd%20vet.png).
+    Met het lezen van het csv bestand begonnen we ieder met het uitwerken van een simpel model om te begrijpen hoe een train, (validate,) test model in       elkaar zit. Een voorbeeld hiervan is een [lineair regressie model voor het voorspellen van het aantal gram verzadigd vet in een gerecht op basis van     de hoeveelheid gram vet in het gerecht](https://github.com/HiddeHaagse/Minor-Applied-Data- Science/blob/main/Lineair%20regressie%20model%20vet%20en%20verzadigd%20vet.png).
   - Domain Knowledge
   - Data Preprocessing
   - Communication
