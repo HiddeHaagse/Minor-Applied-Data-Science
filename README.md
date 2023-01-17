@@ -43,7 +43,7 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
     
     Een voorbeeld van de "Predictive Analytics" die ik heb gebruikt in de minor is het gebruik machine learning technieken om een classificatieprobleem       op te lossen in project 1. Hierbij heb ik gebruik gemaakt van verschillende modellen, waaronder logistische regressie, k-nearest neighbors, support       vector machines, random forest classifiers en gaussian naive bayes.
 
-    Om te beginnen heb ik classificatiemodellen opgezocht, en via literatuur ([link](https://towardsdatascience.com/top-machine-learning-algorithms-for-       classification-2197870ff501) op de modellen gekomen. 
+    Om te beginnen heb ik classificatiemodellen opgezocht, en via literatuur [link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501) op de modellen gekomen. 
 
     Vervolgens heb ik maatregelen genomen om over- en underfitting te voorkomen. Dit heb ik gedaan door gebruik te maken van technieken zoals                 GridSearchCV voor het tunen van hyperparameters. Dit helpt om de prestaties van de modellen te verbeteren en te voorkomen dat de modellen te veel         aangepast worden aan de training data.
 
@@ -52,7 +52,6 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
     Tot slot heb ik de resultaten van de modellen bekeken, zowel op kwantitatieve als kwalitatieve wijze. Hierbij heb ik gebruik gemaakt van                  visualisaties, zoals plots, om de prestaties van de modellen inzichtelijk te maken. Ook heb ik voorbeelden gegeven van hoe de modellen voorspellen        in specifieke gevallen, dit helpt om de resultaten beter te begrijpen en interpreteren.
     
     
-![image](https://user-images.githubusercontent.com/121449506/212924333-57d1a58b-bfde-4449-b92f-ca3259f82dd1.png)
 
 
   - Domain Knowledge
