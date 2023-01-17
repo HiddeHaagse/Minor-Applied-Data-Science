@@ -33,29 +33,23 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
 
 
 
-## Portfolio
+# Portfolio
 - Reflectie contributie groepsprojecten
 - Reflectie eigen leerobjecten
-  - Predictive Analytics
-    
-    ~Aangezien we het Foodboost project als een lekker of niet lekker probleem hebben gedefiniëerd, moet er een classificatie model worden gemaakt. Via         literatuur ben ik op een paar classificatiemodellen gekomen. Eerst moet ik data simuleren aangezien die er niet is (zie kopstuk Define Users). Toen       moest ik de data aanpassen zodat deze getraind kon worden (Zie kopstuk matrix functies). En daarna kon ik de modellen valideren en de hyperparameters     tunen (Kopstuk Validation). De accuraatheid score zegt al heel veel in de validatie maar toch maak ik een validation curve. KNearest Neighbors komt       het beste uit de test. De parameters 'leaf_size' en 'p' bleven bij alle validaties altijd hetzelfde dus heb ik een vlidation curve gemaakt van de         parameter 'n_neighbors'.~
-    
+##Predictive Analytics
     
     Een voorbeeld van de "Predictive Analytics" die ik heb gebruikt in de minor is het gebruik machine learning technieken om een classificatieprobleem       op te lossen in project 1. Hierbij heb ik gebruik gemaakt van verschillende modellen, waaronder logistische regressie, k-nearest neighbors, support       vector machines, random forest classifiers en gaussian naive bayes.
 
-    Om te beginnen heb ik classificatiemodellen opgezocht, en via literatuur [link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501) op de modellen gekomen. 
+Aangezien we het Foodboost project als een lekker of niet lekker probleem hebben gedefiniëerd, moet er een classificatie model worden gemaakt. Via literatuur ben ik op een paar classificatiemodellen gekomen [link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501). Ik heb eerst de data aangepast zodat dit gebruikt kon worden voor het trainen van de modellen.
 
-    Vervolgens heb ik maatregelen genomen om over- en underfitting te voorkomen. Dit heb ik gedaan door gebruik te maken van technieken zoals                 GridSearchCV voor het tunen van hyperparameters. Dit helpt om de prestaties van de modellen te verbeteren en te voorkomen dat de modellen te veel         aangepast worden aan de training data.
+Vervolgens heb ik maatregelen genomen om over- en underfitting te voorkomen. Dit heb ik gedaan door gebruik te maken van meerdere GridSearchCV's voor het tunen van hyperparameters. Dit helpt om de prestaties van de modellen te verbeteren en te voorkomen dat de modellen te veel aangepast worden aan de training data.
 
-    Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen tussen de modellen verklaard. Dit helpt om een beeld te krijgen van       de prestaties van de verschillende modellen en om te bepalen welk model het beste geschikt is voor het specifieke probleem.
-
-    Tot slot heb ik de resultaten van de modellen bekeken, zowel op kwantitatieve als kwalitatieve wijze. Hierbij heb ik gebruik gemaakt van                  visualisaties, zoals plots, om de prestaties van de modellen inzichtelijk te maken. Ook heb ik voorbeelden gegeven van hoe de modellen voorspellen        in specifieke gevallen, dit helpt om de resultaten beter te begrijpen en interpreteren.
-    
-    
+Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen tussen de modellen verklaard. Dit helpt om een beeld te krijgen van       de prestaties van de verschillende modellen en om te bepalen welk model het beste geschikt is voor het specifieke probleem. De accuraatheid score zegt al heel veel in de validatie maar toch maak ik een validation curve. KNearest Neighbors komt het beste uit de test. De parameters 'leaf_size' en 'p' bleven bij alle validaties altijd hetzelfde dus heb ik een extra validation curve gemaakt van de parameter 'n_neighbors'.
 
 
   - Domain Knowledge
   - Data Preprocessing
+    Maar voordat ik iets kan aanbevelen moest ik eerst de data simuleren, aangezien die er niet is (zie kopstuk Define Users). 
   - Communication
 - Evalutatie groepsproject als geheel
 
