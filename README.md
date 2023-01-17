@@ -36,6 +36,8 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
 # Portfolio
 - Reflectie contributie groepsprojecten
 - Reflectie eigen leerobjecten
+
+
 ##Predictive Analytics
     
     Een voorbeeld van de "Predictive Analytics" die ik heb gebruikt in de minor is het gebruik machine learning technieken om een classificatieprobleem       op te lossen in project 1. Hierbij heb ik gebruik gemaakt van verschillende modellen, waaronder logistische regressie, k-nearest neighbors, support       vector machines, random forest classifiers en gaussian naive bayes.
