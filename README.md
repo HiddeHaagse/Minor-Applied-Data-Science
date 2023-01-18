@@ -39,9 +39,7 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
 
 
 ## Predictive Analytics
-    
-    Een voorbeeld van de "Predictive Analytics" die ik heb gebruikt in de minor is het gebruik machine learning technieken om een classificatieprobleem       op te lossen in project 1. Hierbij heb ik gebruik gemaakt van verschillende modellen, waaronder logistische regressie, k-nearest neighbors, support       vector machines, random forest classifiers en gaussian naive bayes.
-
+[Link naar de Notebook](www.google.com)
 Aangezien we het Foodboost project als een lekker of niet lekker probleem hebben gedefiniëerd, moet er een classificatie model worden gemaakt. Via literatuur ben ik op een paar classificatiemodellen gekomen [link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501). Hierbij heb ik gebruik gemaakt van verschillende modellen, waaronder logistische regressie, k-nearest neighbors, support vector machines, random forest classifiers en gaussian naive bayes. Maar eerst heb ik de data aangepast zodat dit gebruikt kon worden voor het trainen van de modellen ([Zie Data Preprocessing](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#data-preprocessing))).
 
 Vervolgens heb ik maatregelen genomen om over- en underfitting te voorkomen. Dit heb ik gedaan door gebruik te maken van meerdere GridSearchCV's voor het tunen van hyperparameters. Dit helpt om de prestaties van de modellen te verbeteren en te voorkomen dat de modellen te veel aangepast worden aan de training data.
@@ -49,10 +47,16 @@ Vervolgens heb ik maatregelen genomen om over- en underfitting te voorkomen. Dit
 Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen tussen de modellen verklaard. Dit helpt om een beeld te krijgen van       de prestaties van de verschillende modellen en om te bepalen welk model het beste geschikt is voor het specifieke probleem. De accuraatheid score zegt al heel veel in de validatie maar toch maak ik een validation curve. KNearest Neighbors komt het beste uit de test. De parameters 'leaf_size' en 'p' bleven bij alle validaties altijd hetzelfde dus heb ik een extra validation curve gemaakt van de parameter 'n_neighbors'.
 
 
-  - Domain Knowledge
+## Domain Knowledge
+
+
 ## Data Preprocessing
 Maar voordat ik iets kan aanbevelen moest ik eerst de data simuleren, aangezien die er niet is (zie kopstuk Define Users). 
-  - Communication
+
+
+## Communication
+
+
 - Evalutatie groepsproject als geheel
 
 
