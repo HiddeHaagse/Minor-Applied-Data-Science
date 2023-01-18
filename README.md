@@ -61,7 +61,14 @@ Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen 
 
 
 ## Data Preprocessing
-Maar voordat ik iets kan aanbevelen moest ik eerst de data simuleren, aangezien die er niet is (zie kopstuk Define Users). 
+[Notebook](google.com)
+
+Maar voordat ik iets kan aanbevelen moest ik eerst de data simuleren, aangezien die er niet is moest ik deze zelf genereren (zie kopstuk Define Users). 
+De code definieert een functie genaamd "User_Favo_Random_Tags" die een dataset maakt voor een systeem voor het aanbevelen van voedingsrecepten. De functie neemt twee parameters aan: "randomTag", dat een willekeurig geselecteerde tag is uit een "tagsdf" databestand, en "K" dat het minimum aantal gerechten is dat geassocieerd moet zijn met de "randomTag". De functie gebruikt de "random" module om willekeurig een tag te selecteren die ten minste "K" aantal gerelateerde gerechten heeft. De functie selecteert vervolgens "K" aantal willekeurige gerechten die geassocieerd zijn met de geselecteerde tag en splitst deze in een trainingsset en een testset (respectievelijk 80% en 20%). De functie maakt ook een lijst met tags die zijn geassocieerd met de geselecteerde gerechten, en een set van "K" aantal willekeurige gerechten die niet geassocieerd zijn met de geselecteerde tag. Deze gerechten worden ook gesplitst in een trainingsset en een testset (80% en 20%). 
+
+
+Voor de trian, validate en test data maak ik een matrix met behulp van de pandas bibliotheek die is gevuld met nullen, waarbij de kolommen de lijst met tags zijn en de rijen de gebruiker zijn. De functie maakt ook een tweede matrix, vergelijkbaar met de eerste, maar met een ander kolomvoorvoegsel. De functie maakt vervolgens een numpy-array van de lijst met tags van de gebruiker en gebruikt de LeaveOneOut methode van sklearn.model_selection om over de train- en testindexen te itereren. De eerste matrix wordt als pivottable gebruikt door de tags van de gelieve recepten op te slaan. De tweede matrix wordt dan als pivottabel gebruikt met de tags van de recepten die in de oneven rijen de gelieve recepten van de Leave One Out zijn, en in de oneven rijen is zijn het de tags van een recept dat niet gelieve is.
+De functie splitst dus de lijst met tags van de gebruiker in train- en testsets, en voor elke iteratie, haalt het het eerste element uit de randomTags en randomRecipes lijsten (De recepten die niet lekker worden gevonden door de user). De functie gebruikt vervolgens de unieke tags om de pivot tabel/matrix te vullen. Tenslotte geeft de functie de train- en test sets van geselecteerde gerechten, hun bijbehorende tags, willekeurige tags, "K", en de test sets van niet-geassocieerde gerechten en hun bijbehorende tags terug.
 
 
 ## Communication
