@@ -37,6 +37,9 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
 - Reflectie contributie groepsprojecten
 - Reflectie eigen leerobjecten
 
+## Research Project
+
+
 
 ## Predictive Analytics
 [Notebook](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/Portfolio%20(Predictive%20Analytics).ipynb)
