@@ -61,7 +61,7 @@ Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen 
 
 
 ## Data Preprocessing
-[Notebook](google.com)
+[Notebook](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/Portfolio%20(Data%20Preprocessing).ipynb)
 
 Maar voordat ik iets kan aanbevelen moest ik eerst de data simuleren, aangezien die er niet is moest ik deze zelf genereren (zie kopstuk Define Users). 
 De code definieert een functie genaamd "User_Favo_Random_Tags" die een dataset maakt voor een systeem voor het aanbevelen van voedingsrecepten. De functie neemt twee parameters aan: "randomTag", dat een willekeurig geselecteerde tag is uit een "tagsdf" databestand, en "K" dat het minimum aantal gerechten is dat geassocieerd moet zijn met de "randomTag". De functie gebruikt de "random" module om willekeurig een tag te selecteren die ten minste "K" aantal gerelateerde gerechten heeft. De functie selecteert vervolgens "K" aantal willekeurige gerechten die geassocieerd zijn met de geselecteerde tag en splitst deze in een trainingsset en een testset (respectievelijk 80% en 20%). De functie maakt ook een lijst met tags die zijn geassocieerd met de geselecteerde gerechten, en een set van "K" aantal willekeurige gerechten die niet geassocieerd zijn met de geselecteerde tag. Deze gerechten worden ook gesplitst in een trainingsset en een testset (80% en 20%). 
