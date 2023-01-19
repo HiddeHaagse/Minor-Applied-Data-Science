@@ -85,6 +85,8 @@ Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten conta
 ### Terminologie
 [Notebook](www.google.com)
 
+- Supply Chain Management: het proces van het overzien en coördineren van alle activiteiten die betrokken zijn bij de productie en levering van een product of dienst.
+- 
 
 
 ## Data Preprocessing
