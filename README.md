@@ -61,6 +61,20 @@ Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen 
 
 
 ## Domain Knowledge
+### Introductie Cofano Project
+Optimalisatie van containerplaatsing is een cruciaal aspect van logistiek en supply chain management, met name in de context van haventerminals. De efficiënte plaatsing en organisatie van containers is essentieel voor een soepele en tijdige bedrijfsvoering in deze faciliteiten. Maar het vinden van de optimale plaatsing van containers in een haventerminal kan een uitdaging zijn, omdat er rekening moet worden gehouden met factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting.
+
+Een bedrijf dat voor in de rij staat van het aanpakken van deze uitdaging is Cofano. Cofano is een toonaangevende leverancier van oplossingen voor containerbeheer voor haventerminals. Nu is er met een simulatie een werkend prototype ontwikkeld voor optimalisatie van containerplaatsing met behulp van Reinforcement Learning (RL).
+
+RL is een type machine learning-algoritme dat agents in staat stelt om te leren van hun interacties met de omgeving. In de context van containerplaatsing kan een RL-agent een optimale plaatsingsstrategie leren door middel van vallen en opstaan (trail and error), door beloningen of straffen te ontvangen op basis van de uitkomst van zijn acties.
+
+Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers in een haventerminal te optimaliseren. De agent is getraind om factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting in acht te nemen, om de meest optimale plaatsing van containers te vinden, waar de stacker elke container kan pakken die hij wil zonder extra stappen te doen. De stacker pakt containers op de horizontale as. Wanneer het model een container op een plek plaatst waar al een container staat of een gelieve container inboxt, krijgt het een negatieve beloning. Zodra de agent een container goed plaatst, bijvoorbeeld naast of op een andere gelieve container, krijgt het een positieve belonging. Zo leert het model om de haventerminal zo efficiënt mogelijk in te richten.
+
+### Literatuur
+
+### Terminologie
+[Notebook](www.google.com)
+
 
 
 ## Data Preprocessing
