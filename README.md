@@ -109,7 +109,7 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 
 # Bibliografie
-*Gong, D. (2022, July 12). Top 6 Machine Learning Algorithms for Classification. Medium. [Link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501)
+*Gong, D. (2022, July 12). Top 6 Machine Learning Algorithms for Classification. Medium. [Link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501).*
 
 *Jiang, T., Zeng, B., Wang, Y., & Yan, W. (2021, April). A New Heuristic Reinforcement Learning for Container Relocation Problem. Journal of Physics: Conference Series (Vol. 1873, No. 1, p. 012050). IOP Publishing. doi: [10.1088/1742-6596/1873/1/012050](https://iopscience.iop.org/article/10.1088/1742-6596/1873/1/012050)*
 
@@ -119,7 +119,7 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 *Shi, W. (2021). A New Algorithm for the Container Pre-marshalling Problem. International Core Journal of Engineering, 7(8), 20-24, doi: [10.6919/ICJE.202108_7(8).0004](https://doi.org/10.6919/ICJE.202108_7(8).0004)* 
 
-*Kefi, M., Korbaa, O., Ghedira, K., & Yim, P. (2007). Heuristic-based model for container stacking problem. In 19th International Conference on Production Research-ICPR (Vol. 7). [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=38de975bf0b50cea4daa83606bee945994c91f34)*
+*Kefi, M., Korbaa, O., Ghedira, K., & Yim, P. (2007). Heuristic-based model for container stacking problem. In 19th International Conference on Production Research-ICPR (Vol. 7). [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=38de975bf0b50cea4daa83606bee945994c91f34).*
 
 *Euchi, J., Moussi. R., Ndiaye, F., Yassine, A (2016). Ant Colony Optimization for Solving the Container Stacking Problem: Case of Le Havre (France) Seaport Terminal. International Journal of Applied Logistics, 6(2), 81-101. doi: [10.4018/IJAL.2016070104](https://www.researchgate.net/publication/308969102_Ant_Colony_Optimization_for_Solving_the_Container_Stacking_Problem_Case_of_Le_Havre_France_Seaport_Terminal)*
 
