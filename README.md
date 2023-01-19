@@ -57,10 +57,12 @@ Aangezien we het Foodboost project als een lekker of niet lekker probleem hebben
 
 -Gaussian Naive Bayes is een eenvoudige en veelgebruikte methode voor het oplossen van problemen met afhankelijke variabelen die categorisch zijn. Het is een probabilistische methode die een goede prestatie levert voor kleine datasets.
 
-Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen tussen de modellen verklaard. Dit helpt om een beeld te krijgen van       de prestaties van de verschillende modellen en om te bepalen welk model het beste geschikt is voor het specifieke probleem. De accuraatheid score zegt al heel veel in de validatie maar toch maak ik een validation curve. KNearest Neighbors komt het beste uit de test. De parameters 'leaf_size' en 'p' bleven bij alle validaties altijd hetzelfde dus heb ik een extra validation curve gemaakt van de parameter 'n_neighbors'.
+Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen tussen de modellen verklaard. Dit helpt om een beeld te krijgen van de prestaties van de verschillende modellen en om te bepalen welk model het beste geschikt is voor het specifieke probleem. De accuraatheid score zegt al heel veel in de validatie maar toch maak ik een validation curve. KNearest Neighbors komt het beste uit de test. De parameters 'leaf_size' en 'p' bleven bij alle validaties altijd hetzelfde dus heb ik een extra validation curve gemaakt van de parameter 'n_neighbors'.
 
 
 ## Domain Knowledge
+[Notebook](www.google.com)
+
 ### Introductie Cofano Project
 Optimalisatie van containerplaatsing is een cruciaal aspect van logistiek en supply chain management, met name in de context van haventerminals. De efficiënte plaatsing en organisatie van containers is essentieel voor een soepele en tijdige bedrijfsvoering in deze faciliteiten. Maar het vinden van de optimale plaatsing van containers in een haventerminal kan een uitdaging zijn, omdat er rekening moet worden gehouden met factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting.
 
@@ -68,7 +70,7 @@ Een bedrijf dat voor in de rij staat van het aanpakken van deze uitdaging is Cof
 
 RL is een type machine learning-algoritme dat agents in staat stelt om te leren van hun interacties met de omgeving. In de context van containerplaatsing kan een RL-agent een optimale plaatsingsstrategie leren door middel van vallen en opstaan (trail and error), door beloningen of straffen te ontvangen op basis van de uitkomst van zijn acties.
 
-Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers in een haventerminal te optimaliseren. De agent is getraind om factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting in acht te nemen, om de meest optimale plaatsing van containers te vinden, waar de stacker elke container kan pakken die hij wil zonder extra stappen te doen. De stacker pakt containers op de horizontale as. Wanneer het model een container op een plek plaatst waar al een container staat of een gelieve container inboxt, krijgt het een negatieve beloning. Zodra de agent een container goed plaatst, bijvoorbeeld naast of op een andere gelieve container, krijgt het een positieve belonging. Zo leert het model om de haventerminal zo efficiënt mogelijk in te richten.
+Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers in een haventerminal te optimaliseren. De agent is getraind om factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting in acht te nemen, om de meest optimale plaatsing van containers te vinden, waar de stacker elke container kan pakken die hij wil zonder extra stappen te doen. De stacker pakt containers op de horizontale as. Wanneer het model een container op een plek plaatst waar al een container staat of een gelieve container inboxt, krijgt het een negatieve beloning. Zodra de agent een container goed plaatst, bijvoorbeeld naast of op een andere gelieve container, krijgt het een positieve belonging. Nu heb ik het model nog twee extra manieren gegeven om een hogere score te behalen. Dit is wanneer de agent een volledige rij vult met dezelfde containers en het krijgt een minpunt als de rij met meer dan 2 verschillende containers is gevuld. Dit zal de variatie per rij laag houden en dus dezelfde containers dicht bij elkaar zetten. Zie voor verdere uitwerking de [Notebook](www.google.com). Zo leert het model om de haventerminal zo efficiënt mogelijk in te richten.
 
 ### Literatuur
 In dit literatuuronderzoek zullen we de keuzes die zijn gemaakt in het Cofano project onderbouwen met behulp van relevante literatuur. Zie [bibliografie](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#bibliografie).
@@ -79,14 +81,9 @@ Ten tweede, heb ik ervoor gekozen om een beloning te geven voor het plaatsen van
 
 Daarnaast, heb ik extra beloningen en straffen geïmplementeerd voor het plaatsen van containers naast containers van dezelfde soort, of het plaatsen van containers tussen twee ongelijke containers. Dit is consistent met de aanbevelingen van *Shi, W. (2021)* die een nieuw algoritme voorgesteld voor het oplossen van het container pre-marshalling probleem en *Ghedira, Kefi, Korbaa, and Yim (2010)* die een heuristische gebaseerde model introduceren voor het containerstapelingsprobleem.
 
+Om deze "steps" te evalueren heb ik voor een Proximal Policy Optimization (PPO) agent gekozen voor de stabiliteit van de clip functie bij het trainen. Op aanbeveling van het experiment van *Duan, Chen, Houthooft, Schulman, Abbeel (2016)* heb ik geen Advantage Actor-Critic (A2C) agent gebruikt omdat PPO simpelweg beter presteert. Dit is in het Cofano project ook het geval. 
+
 Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten containers die beschikbaar zijn voor plaatsing. Dit is consistent met de aanbevelingen van *Euchi, Moussi, Ndiaye, and Yassine (2016)* die een ant colony optimization benadering gebruiken voor het oplossen van het containerstapelingsprobleem in Le Havre Seaport Terminal.
-
-
-### Terminologie
-[Notebook](www.google.com)
-
-- Supply Chain Management: het proces van het overzien en coördineren van alle activiteiten die betrokken zijn bij de productie en levering van een product of dienst.
-- 
 
 
 ## Data Preprocessing
@@ -122,6 +119,8 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 *Shi, W. (2021). A New Algorithm for the Container Pre-marshalling Problem. International Core Journal of Engineering, 7(8), 20-24, doi: [10.6919/ICJE.202108_7(8).0004](https://doi.org/10.6919/ICJE.202108_7(8).0004)* 
 
 *Kefi, M., Korbaa, O., Ghedira, K., & Yim, P. (2007). Heuristic-based model for container stacking problem. In 19th International Conference on Production Research-ICPR (Vol. 7). [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=38de975bf0b50cea4daa83606bee945994c91f34).*
+
+*Duan, Y., Chen, X., Houthooft, R., Schulman, J., & Abbeel, P. (2016, June). Benchmarking deep reinforcement learning for continuous control. In International conference on machine learning (pp. 1329-1338). PMLR.*
 
 *Euchi, J., Moussi. R., Ndiaye, F., Yassine, A (2016). Ant Colony Optimization for Solving the Container Stacking Problem: Case of Le Havre (France) Seaport Terminal. International Journal of Applied Logistics, 6(2), 81-101. doi: [10.4018/IJAL.2016070104](https://www.researchgate.net/publication/308969102_Ant_Colony_Optimization_for_Solving_the_Container_Stacking_Problem_Case_of_Le_Havre_France_Seaport_Terminal)*
 
