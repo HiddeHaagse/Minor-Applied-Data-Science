@@ -71,6 +71,16 @@ RL is een type machine learning-algoritme dat agents in staat stelt om te leren 
 Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers in een haventerminal te optimaliseren. De agent is getraind om factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting in acht te nemen, om de meest optimale plaatsing van containers te vinden, waar de stacker elke container kan pakken die hij wil zonder extra stappen te doen. De stacker pakt containers op de horizontale as. Wanneer het model een container op een plek plaatst waar al een container staat of een gelieve container inboxt, krijgt het een negatieve beloning. Zodra de agent een container goed plaatst, bijvoorbeeld naast of op een andere gelieve container, krijgt het een positieve belonging. Zo leert het model om de haventerminal zo efficiënt mogelijk in te richten.
 
 ### Literatuur
+In dit literatuuronderzoek zullen we de keuzes die zijn gemaakt in het project waarin een reinforcement learning agent wordt gebruikt om containers te plaatsen in een matrix grid, onderbouwen met behulp van relevante literatuur. Zie [bibliografie](www.google.com)
+
+Eerst en vooral, heb ik gekozen voor het gebruik van reinforcement learning als techniek voor het oplossen van het container plaatsingsprobleem. Dit komt overeen met de aanbevelingen van Jiang, Wang, Yan, and Zeng (2021) die een nieuwe heuristische reinforcement learning methode introduceren voor het containerrelocatieprobleem, en Hu, Wang, Xiao, and Yang (2023) die een multi-agent reinforcement learning benadering gebruiken voor anti-conflict AGV padplanning in geautomatiseerde containerterminals.
+
+Ten tweede, heb ik ervoor gekozen om een beloning te geven voor het plaatsen van containers op lege plekken en een negatieve beloning voor het plaatsen van containers op plekken waar al een container staat. Dit is consistent met de aanbevelingen van Moussi, Ndiaye, and Yassine (2012) die een hybride genetische simulated annealing algoritme gebruiken om de containeropslagproblemen in havens op te lossen en van Hu, Yang, and Zeng (2011) die een methode integreren van simulatie en reinforcement learning voor de planning van operationele inzet in containerterminals.
+
+Daarnaast, heb ik extra beloningen en straffen geïmplementeerd voor het plaatsen van containers naast containers van dezelfde soort, of het plaatsen van containers tussen twee ongelijke containers. Dit is consistent met de aanbevelingen van Barber, Salido, and Sapena (2009) die een kunstmatige intelligentieplanningstool introduceren voor het containerstapelingsprobleem en Ghedira, Kefi, Korbaa, and Yim (2010) die een heuristische gebaseerde model introduceren voor het containerstapelingsprobleem.
+
+Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten containers die beschikbaar zijn voor plaatsing. Dit is consistent met de aanbevelingen van Euchi, Moussi, Ndiaye, and Yassine (2016) die een ant colony optimization benadering gebruiken voor het oplossen van het containerstapelingsprobleem in Le Havre Seaport Terminal.
+
 
 ### Terminologie
 [Notebook](www.google.com)
