@@ -108,3 +108,23 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 - Evalutatie groepsproject als geheel
 
 
+# Bibliografie
+*Jiang, T., Zeng, B., Wang, Y., & Yan, W. (2021, April). A New Heuristic Reinforcement Learning for Container Relocation Problem. Journal of Physics: Conference Series (Vol. 1873, No. 1, p. 012050). IOP Publishing.*
+
+*Hu, H., Wang, F., Xiao, S., Yang, X. (2023). Anti-conflict AGV Path Planning in Automated Container Terminals Based on Multi-agent Reinforcement Learning. International Journal of Production Research, 61(1), 65-80. doi: 10.1080/00207543.2021.1998695*
+
+*Moussi. R., Ndiaye, F., Yassine, A. (2012). Hybrid Genetic Simulated Annealing Algorithm (HGSAA) to Solve Storage Container Problem in Port. In Intelligent Information and Data base Systems, LNCS (Vol. 7197, pp. 301-310)*
+
+*Hu, X., Yang, Z., Zeng, Q. (2011) A Method Integrating Simulation and Reinforcement Learning for Operation Scheduling in Container Terminals. Transport, 26(4), 383-393. doi: 10.3846/16484142.2011.638022*
+
+*Salido, M. A., Sapena, O., & Barber, F. (2009, September). An artificial intelligence planning tool for the container stacking problem. In 2009 IEEE Conference on Emerging Technologies & Factory Automation (pp. 1-4). IEEE.*
+
+*Kefi, M., Korbaa, O., Ghedira, K., & Yim, P. (2007). Heuristic-based model for container stacking problem. In 19th International Conference on Production Research-ICPR (Vol. 7).*
+
+*Euchi, J., Moussi. R., Ndiaye, F., Yassine, A (2016). Ant Colony Optimization for Solving the Container Stacking Problem: Case of Le Havre (France) Seaport Terminal. International Journal of Applied Logistics, 6(2), 81-101. doi: 10.4018/IJAL.2016070104*
+
+
+
+
+
+
