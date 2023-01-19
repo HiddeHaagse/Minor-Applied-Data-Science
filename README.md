@@ -44,7 +44,7 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
 ## Predictive Analytics
 [Notebook](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/Portfolio%20(Predictive%20Analytics).ipynb)
 
-Aangezien we het Foodboost project als een lekker of niet lekker probleem hebben gedefiniëerd, moet er een classificatie model worden gemaakt. Via literatuur ben ik op een paar classificatiemodellen gekomen [link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501). Hierbij heb ik gebruik gemaakt van verschillende modellen, waaronder logistische regressie, k-nearest neighbors, support vector machines, random forest classifiers en gaussian naive bayes. Maar eerst heb ik de data aangepast zodat dit gebruikt kon worden voor het trainen van de modellen ([Zie Data Preprocessing](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#data-preprocessing))).
+Aangezien we het Foodboost project als een lekker of niet lekker probleem hebben gedefiniëerd, moet er een classificatie model worden gemaakt. Via het atrikel van *Gong (2022)* ben ik op een paar classificatiemodellen gekomen. Hierbij heb ik gebruik gemaakt van verschillende modellen, waaronder logistische regressie, k-nearest neighbors, support vector machines, random forest classifiers en gaussian naive bayes. Maar eerst heb ik de data aangepast zodat dit gebruikt kon worden voor het trainen van de modellen ([Zie Data Preprocessing](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#data-preprocessing))).
 
 ### Modellen
 -Logistic Regression is een klassieke en veelgebruikte methode voor het oplossen van problemen met afhankelijke variabelen die categorisch zijn. Het is een lineaire methode die een goede prestatie levert voor kleine datasets.
@@ -73,13 +73,13 @@ Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers
 ### Literatuur
 In dit literatuuronderzoek zullen we de keuzes die zijn gemaakt in het project waarin een reinforcement learning agent wordt gebruikt om containers te plaatsen in een matrix grid, onderbouwen met behulp van relevante literatuur. Zie [bibliografie](www.google.com).
 
-Eerst en vooral, heb ik gekozen voor het gebruik van reinforcement learning als techniek voor het oplossen van het container plaatsingsprobleem. Dit komt overeen met de aanbevelingen van Jiang, Wang, Yan, and Zeng (2021) die een nieuwe heuristische reinforcement learning methode introduceren voor het containerrelocatieprobleem, en Hu, Wang, Xiao, and Yang (2023) die een multi-agent reinforcement learning benadering gebruiken voor anti-conflict AGV padplanning in geautomatiseerde containerterminals.
+Eerst en vooral, heb ik gekozen voor het gebruik van reinforcement learning als techniek voor het oplossen van het container plaatsingsprobleem. Dit komt overeen met de aanbevelingen van *Jiang, Wang, Yan, and Zeng (2021)* die een nieuwe heuristische reinforcement learning methode introduceren voor het containerrelocatieprobleem, en *Hu, Wang, Xiao, and Yang (2023)* die een multi-agent reinforcement learning benadering gebruiken voor anti-conflict AGV padplanning in geautomatiseerde containerterminals.
 
-Ten tweede, heb ik ervoor gekozen om een beloning te geven voor het plaatsen van containers op lege plekken en een negatieve beloning voor het plaatsen van containers op plekken waar al een container staat. Dit is consistent met de aanbevelingen van Moussi, Ndiaye, and Yassine (2012) die een hybride genetische simulated annealing algoritme gebruiken om de containeropslagproblemen in havens op te lossen en van Hu, Yang, and Zeng (2011) die een methode integreren van simulatie en reinforcement learning voor de planning van operationele inzet in containerterminals.
+Ten tweede, heb ik ervoor gekozen om een beloning te geven voor het plaatsen van containers op lege plekken en een negatieve beloning voor het plaatsen van containers op plekken waar al een container staat. Dit is consistent met de aanbevelingen van *Hu, Yang, and Zeng (2011)* die een methode integreren van simulatie en reinforcement learning voor de planning van operationele inzet in containerterminals.
 
-Daarnaast, heb ik extra beloningen en straffen geïmplementeerd voor het plaatsen van containers naast containers van dezelfde soort, of het plaatsen van containers tussen twee ongelijke containers. Dit is consistent met de aanbevelingen van Barber, Salido, and Sapena (2009) die een kunstmatige intelligentieplanningstool introduceren voor het containerstapelingsprobleem en Ghedira, Kefi, Korbaa, and Yim (2010) die een heuristische gebaseerde model introduceren voor het containerstapelingsprobleem.
+Daarnaast, heb ik extra beloningen en straffen geïmplementeerd voor het plaatsen van containers naast containers van dezelfde soort, of het plaatsen van containers tussen twee ongelijke containers. Dit is consistent met de aanbevelingen van *Shi, W. (2021)* die een nieuw algoritme voorgesteld voor het oplossen van het container pre-marshalling probleem en *Ghedira, Kefi, Korbaa, and Yim (2010)* die een heuristische gebaseerde model introduceren voor het containerstapelingsprobleem.
 
-Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten containers die beschikbaar zijn voor plaatsing. Dit is consistent met de aanbevelingen van Euchi, Moussi, Ndiaye, and Yassine (2016) die een ant colony optimization benadering gebruiken voor het oplossen van het containerstapelingsprobleem in Le Havre Seaport Terminal.
+Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten containers die beschikbaar zijn voor plaatsing. Dit is consistent met de aanbevelingen van *Euchi, Moussi, Ndiaye, and Yassine (2016)* die een ant colony optimization benadering gebruiken voor het oplossen van het containerstapelingsprobleem in Le Havre Seaport Terminal.
 
 
 ### Terminologie
@@ -109,19 +109,19 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 
 # Bibliografie
-*Jiang, T., Zeng, B., Wang, Y., & Yan, W. (2021, April). A New Heuristic Reinforcement Learning for Container Relocation Problem. Journal of Physics: Conference Series (Vol. 1873, No. 1, p. 012050). IOP Publishing.*
+*Gong, D. (2022, July 12). Top 6 Machine Learning Algorithms for Classification. Medium. [Link](https://towardsdatascience.com/top-machine-learning-algorithms-for-classification-2197870ff501)
 
-*Hu, H., Wang, F., Xiao, S., Yang, X. (2023). Anti-conflict AGV Path Planning in Automated Container Terminals Based on Multi-agent Reinforcement Learning. International Journal of Production Research, 61(1), 65-80. doi: 10.1080/00207543.2021.1998695*
+*Jiang, T., Zeng, B., Wang, Y., & Yan, W. (2021, April). A New Heuristic Reinforcement Learning for Container Relocation Problem. Journal of Physics: Conference Series (Vol. 1873, No. 1, p. 012050). IOP Publishing. doi: [10.1088/1742-6596/1873/1/012050](https://iopscience.iop.org/article/10.1088/1742-6596/1873/1/012050)*
 
-*Moussi. R., Ndiaye, F., Yassine, A. (2012). Hybrid Genetic Simulated Annealing Algorithm (HGSAA) to Solve Storage Container Problem in Port. In Intelligent Information and Data base Systems, LNCS (Vol. 7197, pp. 301-310)*
+*Hu, H., Wang, F., Xiao, S., Yang, X. (2023). Anti-conflict AGV Path Planning in Automated Container Terminals Based on Multi-agent Reinforcement Learning. International Journal of Production Research, 61(1), 65-80. doi: [10.1080/00207543.2021.1998695](https://www.researchgate.net/publication/356272643_Anti-conflict_AGV_path_planning_in_automated_container_terminals_based_on_multi-agent_reinforcement_learning)*
 
-*Hu, X., Yang, Z., Zeng, Q. (2011) A Method Integrating Simulation and Reinforcement Learning for Operation Scheduling in Container Terminals. Transport, 26(4), 383-393. doi: 10.3846/16484142.2011.638022*
+*Hu, X., Yang, Z., Zeng, Q. (2011) A Method Integrating Simulation and Reinforcement Learning for Operation Scheduling in Container Terminals. Transport, 26(4), 383-393. doi: [10.3846/16484142.2011.638022](https://doi.org/10.3846/16484142.2011.638022)*
 
-*Salido, M. A., Sapena, O., & Barber, F. (2009, September). An artificial intelligence planning tool for the container stacking problem. In 2009 IEEE Conference on Emerging Technologies & Factory Automation (pp. 1-4). IEEE.*
+*Shi, W. (2021). A New Algorithm for the Container Pre-marshalling Problem. International Core Journal of Engineering, 7(8), 20-24, doi: [10.6919/ICJE.202108_7(8).0004](https://doi.org/10.6919/ICJE.202108_7(8).0004)* 
 
-*Kefi, M., Korbaa, O., Ghedira, K., & Yim, P. (2007). Heuristic-based model for container stacking problem. In 19th International Conference on Production Research-ICPR (Vol. 7).*
+*Kefi, M., Korbaa, O., Ghedira, K., & Yim, P. (2007). Heuristic-based model for container stacking problem. In 19th International Conference on Production Research-ICPR (Vol. 7). [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=38de975bf0b50cea4daa83606bee945994c91f34)*
 
-*Euchi, J., Moussi. R., Ndiaye, F., Yassine, A (2016). Ant Colony Optimization for Solving the Container Stacking Problem: Case of Le Havre (France) Seaport Terminal. International Journal of Applied Logistics, 6(2), 81-101. doi: 10.4018/IJAL.2016070104*
+*Euchi, J., Moussi. R., Ndiaye, F., Yassine, A (2016). Ant Colony Optimization for Solving the Container Stacking Problem: Case of Le Havre (France) Seaport Terminal. International Journal of Applied Logistics, 6(2), 81-101. doi: [10.4018/IJAL.2016070104](https://www.researchgate.net/publication/308969102_Ant_Colony_Optimization_for_Solving_the_Container_Stacking_Problem_Case_of_Le_Havre_France_Seaport_Terminal)*
 
 
 
