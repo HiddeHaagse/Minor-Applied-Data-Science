@@ -68,7 +68,7 @@ Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen 
 
 *Tip: U kunt zijwaards scrollen bij de matrixen*
 
-Maar voordat ik iets kan aanbevelen moest ik eerst de data simuleren, aangezien die er niet is moest ik deze zelf genereren (zie kopstuk Define Users). 
+Binnen het onderwerp "Data Preprocessing heb ik bij het Foodboost project creatieve daden verricht. In [Predictive Analytics](google.com) staat het model van het project omschreven. Maar voordat ik met een model iets kan aanbevelen moest ik eerst de data simuleren, aangezien die er niet is moest ik deze zelf genereren.
 De code definieert een functie genaamd "User_Favo_Random_Tags" die een dataset maakt voor een systeem voor het aanbevelen van voedingsrecepten. De functie neemt twee parameters aan: "randomTag", dat een willekeurig geselecteerde tag is uit een "tagsdf" databestand, en "K" dat het minimum aantal gerechten is dat geassocieerd moet zijn met de "randomTag". De functie gebruikt de "random" module om willekeurig een tag te selecteren die ten minste "K" aantal gerelateerde gerechten heeft. De functie selecteert vervolgens "K" aantal willekeurige gerechten die geassocieerd zijn met de geselecteerde tag en splitst deze in een trainingsset en een testset (respectievelijk 80% en 20%). De functie maakt ook een lijst met tags die zijn geassocieerd met de geselecteerde gerechten, en een set van "K" aantal willekeurige gerechten die niet geassocieerd zijn met de geselecteerde tag. Deze gerechten worden ook gesplitst in een trainingsset en een testset (80% en 20%). De train & testset wordt hier gebruikt vanuit de Leave one out.
 
 
