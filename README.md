@@ -73,6 +73,7 @@ RL is een type machine learning-algoritme dat agents in staat stelt om te leren 
 Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers in een haventerminal te optimaliseren. De agent is getraind om factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting in acht te nemen, om de meest optimale plaatsing van containers te vinden, waar de stacker elke container kan pakken die hij wil zonder extra stappen te doen. De stacker pakt containers op de horizontale as. Wanneer het model een container op een plek plaatst waar al een container staat of een gelieve container inboxt, krijgt het een negatieve beloning. Zodra de agent een container goed plaatst, bijvoorbeeld naast of op een andere gelieve container, krijgt het een positieve belonging. Nu heb ik het model nog twee extra manieren gegeven om een hogere score te behalen. Dit is wanneer de agent een volledige rij vult met dezelfde containers en het krijgt een minpunt als de rij met meer dan 2 verschillende containers is gevuld. Dit zal de variatie per rij laag houden en dus dezelfde containers dicht bij elkaar zetten. Zie voor verdere uitwerking de [Notebook](www.google.com). Zo leert het model om de haventerminal zo efficiënt mogelijk in te richten.
 
 ***~~Aan het model wordt ook een observation space meegegeven, deze observation space bestaat uit de environment waarin wordt gewerkt, voor een drie bij drie matrix gaat het om een box van drie bij drie, en het nummer van de container die geplaatst gaat worden.***
+-Action Space~~***
 
 
 ### Literatuur
