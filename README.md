@@ -88,7 +88,7 @@ Ten tweede, heb ik ervoor gekozen om een beloning te geven voor het plaatsen van
 
 Daarnaast, heb ik extra beloningen en straffen geïmplementeerd voor het plaatsen van containers naast containers van dezelfde soort, of het plaatsen van containers tussen twee ongelijke containers. Dit is consistent met de aanbevelingen van *Shi, W. (2021)* die een nieuw algoritme voorgesteld voor het oplossen van het container pre-marshalling probleem en *Ghedira, Kefi, Korbaa, and Yim (2010)* die een heuristische gebaseerde model introduceren voor het containerstapelingsprobleem.
 
-Om deze "steps" te evalueren heb ik voor een Proximal Policy Optimization (PPO) agent gekozen voor de stabiliteit van de clip functie bij het trainen. Op aanbeveling van het experiment van *Duan, Chen, Houthooft, Schulman, Abbeel (2016)* heb ik geen Advantage Actor-Critic (A2C) agent gebruikt omdat PPO simpelweg beter presteert. Het verschil is dat het A2C-model agressiever zoekt naar een verbetering. Dit zien we dan ook terug in de value loss van het A2C-model vergeleken met het PPO-model. Uiteindelijk heb ik beide modellen uitgeprobeerd en is er voor dit project gekozen voor het PPO-model omdat hier de beste resultaten uit voort kwamen.
+Om deze "steps" te evalueren heb ik voor een Proximal Policy Optimization (PPO) agent gekozen voor de stabiliteit van de clip functie bij het trainen. Op aanbeveling van het experiment van *~~Duan, Chen, Houthooft, Schulman, Abbeel (2016)~~* heb ik geen Advantage Actor-Critic (A2C) agent gebruikt omdat PPO simpelweg beter presteert. Het verschil is dat het A2C-model agressiever zoekt naar een verbetering. Dit zien we dan ook terug in de value loss van het A2C-model vergeleken met het PPO-model. Uiteindelijk heb ik beide modellen uitgeprobeerd en is er voor dit project gekozen voor het PPO-model omdat hier de beste resultaten uit voort kwamen.
 
 Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten containers die beschikbaar zijn voor plaatsing. Dit is consistent met de aanbevelingen van *Euchi, Moussi, Ndiaye, and Yassine (2016)* die een ant colony optimization benadering gebruiken voor het oplossen van het containerstapelingsprobleem in Le Havre Seaport Terminal.
 
@@ -127,12 +127,14 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 *Kefi, M., Korbaa, O., Ghedira, K., & Yim, P. (2007). Heuristic-based model for container stacking problem. In 19th International Conference on Production Research-ICPR (Vol. 7). [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=38de975bf0b50cea4daa83606bee945994c91f34).*
 
-*Duan, Y., Chen, X., Houthooft, R., Schulman, J., & Abbeel, P. (2016, June). Benchmarking deep reinforcement learning for continuous control. In International conference on machine learning (pp. 1329-1338). PMLR.*
+*~~Duan, Y., Chen, X., Houthooft, R., Schulman, J., & Abbeel, P. (2016, June). Benchmarking deep reinforcement learning for continuous control. In International conference on machine learning (pp. 1329-1338). PMLR.~~*
 
 *Euchi, J., Moussi. R., Ndiaye, F., Yassine, A (2016). Ant Colony Optimization for Solving the Container Stacking Problem: Case of Le Havre (France) Seaport Terminal. International Journal of Applied Logistics, 6(2), 81-101. doi: [10.4018/IJAL.2016070104](https://www.researchgate.net/publication/308969102_Ant_Colony_Optimization_for_Solving_the_Container_Stacking_Problem_Case_of_Le_Havre_France_Seaport_Terminal)*
 
 
 
+
+Krishna, V., Sudhir, Y. (2020). Comparison of Reinforcement Learning Algorithms [Powerpoint-slides]. Departure of Computere Science and Engeneering, University at Buffalo. Geraadpleegd op 28 november 2022, van https://cse.buffalo.edu/~avereshc/rl_fall20/  
 
 
 
