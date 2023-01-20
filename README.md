@@ -134,6 +134,7 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 
 
+
 Krishna, V., Sudhir, Y. (2020). Comparison of Reinforcement Learning Algorithms [Powerpoint-slides]. Departure of Computere Science and Engeneering, University at Buffalo. Geraadpleegd op 28 november 2022, van https://cse.buffalo.edu/~avereshc/rl_fall20/  
 
 
