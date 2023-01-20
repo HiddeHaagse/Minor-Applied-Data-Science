@@ -109,7 +109,7 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 
 ## Communication
-
+[Link Scrum Board](https://trello.com/invite/b/KkauUOva/ATTIa5bb61e1949ad898fb9c1cc8f9fc3b3f095EF43D/applied-data-science)
 
 - Evalutatie groepsproject als geheel
 
