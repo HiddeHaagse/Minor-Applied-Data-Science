@@ -2,7 +2,7 @@
 ### Hidde Franke, 19086504, Toegepaste Wiskunde
 
 ## Intro
-Ik ben de eerste twee periodes samen met groep 1 bezig geweest met het FoodBoost project en daarna de laatste 2 periodes aan het Cofano project gewerkt.  In dit portfolio zal ik de globaal belangrijkste onderwerpen omschrijven dat ik heb uitgevoerd. Eerst wordt het groepswerk beschreven en daarna mijn individuele toevoeging hieraan.
+Ik ben de eerste twee periodes samen met groep 1 bezig geweest met het FoodBoost project en daarna de laatste 2 periodes aan het Cofano project gewerkt.  In dit portfolio zal ik meerdere voorbeelden noemen van het werk dat ik heb verricht tijdens de minor. Deze voorbeelden zullen in categorieën worden geplaatst zoals het nakijkmodel voorstelt. Eerst wordt het groepswerk beschreven en daarna mijn individuele toevoeging hieraan.
 
 ## Groepswerken
 ### Project 1: Foodboost
@@ -18,7 +18,7 @@ We hebben een reinforcement learning model gemaakt waarbij de environment een 3 
 ### Project 4: Uitbreiding Cofano
 Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te veranderen. De ene helft van de groep ging proberen het 2D vlak te vergroten door bijvoorbeeld een 5 bij 5 matrix zo efficient mogelijk te vullen en de andere helft ging proberen een 3D model te maken waarbij er boxen op elkaar geplaatst konden worden. Dit bleek een lastige opdracht te zijn.
 
-
+~~
 - Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
 - Predictive Models
 - Data preparation
@@ -32,17 +32,15 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
 - Add any other assignment you feel is evidence of your abilities
 
 
-
-# Portfolio
 - Reflectie contributie groepsprojecten
 - Reflectie eigen leerobjecten
 - Evalutatie groepsproject als geheel
+~~
 
 
 
 
-
-
+# Portfolio
 ## Research Project
 In de minor hebben we als groep gekozen om het Cofano project in een verslag uit te werken. Het verslag is hier te vinden: [Link](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/PaperADS.pdf). In dit stuk van de portfolio zal ik extra (persoonlijke) toevoeging geven aan het verslag.
 
