@@ -140,7 +140,7 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 ### Presentaties
 
 ### Verslag
-Zoals in het kopje [Research Project](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#research-project) besproken is, heb ik met mijn projectgroep een verslag geschreven over het Cofano project. Voordat dit verslag tot stand kwam heb ik eerst een globaal [opzetje](www.google.com/) gemaakt voor de groep met de omschrijving van de informatie die in elk hoofdstuk wordt verwacht.
+Zoals in het kopje [Research Project](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#research-project) besproken is, heb ik met mijn projectgroep een verslag geschreven over het Cofano project. Voordat dit verslag tot stand kwam heb ik eerst een globaal [opzetje](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/ADS%20Paper%20Opzet.pdf) gemaakt voor de groep met de omschrijving van de informatie die in elk hoofdstuk wordt verwacht. Ook heb ik een [voorbeeld verslag](www.google.com/) geschreven waar de meeste mensen wat aan hadden voor het schrijven van hun hoofdstuk.
 
 
 
