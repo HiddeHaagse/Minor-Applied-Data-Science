@@ -37,8 +37,36 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid te
 - Reflectie contributie groepsprojecten
 - Reflectie eigen leerobjecten
 
-## Research Project
 
+
+
+
+
+## Research Project
+In de minor hebben we als groep gekozen om het Cofano project in een verslag uit te werken. Het verslag is hier te vinden: [Link](www.google.com). In dit stuk van de portfolio zal ik extra (persoonlijke) toevoeging geven aan het verslag.
+
+### Context en probleemdefinitie
+In het veld van containerterminaloperaties is er een constant streven om processen te optimaliseren om de tijd die schepen aan de kade doorbrengen te minimaliseren en de kosten zo laag mogelijk te houden. Een dergelijk proces is het verplaatsen van containers, dat gewoonlijk wordt gedaan met behulp van stackers. Het doel van dit onderzoeksproject is om een methode te ontwikkelen voor het optimaal toewijzen van stapelbeweging om het aantal stappen dat nodig is om containers voor verdere vervoer te verplaatsen, te minimaliseren.
+
+### Onderzoeksvragen
+Gegeven deze context waren de onderzoeksvragen voor dit project:
+**"Hoe kunnen we de efficiëntie van containerterminals verbeteren door middel van geautomatiseerde indelingsmethoden?"** 
+Om deze onderzoeksvraag te beantwoorden, hebben we ons gericht op het beantwoorden van de volgende deelvragen:
+•	Welke methoden zijn er al ontwikkeld om containerterminals efficiënter in te richten?
+•	Welke factoren zijn van invloed op de efficiëntie van containerterminals?
+•	Hoe kunnen we deze factoren gebruiken om een geautomatiseerde indelingsmethode te ontwikkelen?
+
+### Methoden en resultaten
+We ontwikkelde een Reinforcement Learning-model om het probleem van het optimaal toewijzen van stapelbeweging in containerterminals aan te pakken. Het model werd getest in verschillende scenario's, zoals yards van verschillende grootten, en was in staat om optimale oplossingen te genereren voor elk geval. De resultaten van het onderzoek lieten zien dat het model in staat was om het aantal stappen voor containerbeweging significant te verminderen in vergelijking met een handmatige methode in combinatie met een random container volgorde. Bovendien bleek het model schaalbaar te zijn en in staat om grotere yards, meer containers en schepen aan te kunnen.
+
+### Toekomstige richtingen
+~~Hoewel de resultaten van deze studie veelbelovend zijn, is er nog ruimte voor verdere onderzoek. Zo zou het team bijvoorbeeld kunnen kijken naar hoe het model presteert onder echte omstandigheden of hoe het geïntegreerd kan worden met andere terminaloperaties zoals scheduling en routing. Een ander gebied voor toekomstig onderzoek is om te onderzoeken hoe het model kan worden aangepast om meer complexe containerbewegingsscenario's aan te kunnen, zoals die met meerdere stackers en kranen.~~
+
+### Planning
+Het onderzoekproject werd de meeste tijd indivudueel bekeken. We hebben vaak het probleem individueel aangepakt en hierbij de beste oplossing verder uitgewerkt. Zo vulden we elkaar aan om onderwerpen toe te voegen waar de ander niet op was gekomen. Er is in dit project geen gebruik gemaakt van een Scrum board. Dit bleek voor ons niet fijn te werken aangezien de individuele uitwerking geen invloed zou hebben op andermans werk. De deadlines voor de uitwerkingen en de taakverdeling werd uitgewerkt via Microsoft Teams en Whatsapp. Deze aanpak hielp ons om te richten op de hoofddoelen en resultaten op een tijdige en efficiënte manier te leveren.
+
+### Conclusie
+In conclusie hebben we met succes een Reinforcement Learning-model ontwikkeld om de stapelbeweging in containerterminals optimaal toe te wijzen. Het model bleek schaalbaar te zijn en in staat om grotere yards, meer containers en schepen aan te kunnen en om optimale oplossingen te genereren voor yards van verschillende groottes. De resultaten van de studie hebben aangetoond dat dit model het aantal stappen voor containerbeweging significant kan verminderen in vergelijking met een handmatige methode in combinatie met een random container volgorde. ~~Toekomstig onderzoek zou zich moeten richten op het testen van het model onder echte omstandigheden en het onderzoeken hoe het model kan worden aangepast om meer complexe containerbewegingsscenario's aan te kunnen.~~
 
 
 ## Predictive Analytics
