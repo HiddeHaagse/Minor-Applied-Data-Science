@@ -138,14 +138,14 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 ## Communication
 ### Presentaties
-Ik heb meerdere keren gepresenteerd tijdens de minor. Meerdere malen voor internen en een enkele keer voor externen.
+Ik heb meerdere keren gepresenteerd tijdens de minor. Meerdere malen voor internen en een enkele keer voor externen:
 - [Intern Foodboost 19-09-2022](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/FOODBOOST%2019-09-2022%20intern%20pres.pdf)
 - [Intern Foodboost 03-10-2022](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/FOODBOOST%2003-10-2022%20intern%20pres.pdf)
 - [Extern Foodboost 07-10-2022](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/FOODBOOST%2007-10-2022%20extern%20pres.pdf)
 
 
 ### Verslag
-Zoals in het kopje [Research Project](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#research-project) besproken is, heb ik met mijn projectgroep een verslag geschreven over het Cofano project. Voordat dit verslag tot stand kwam heb ik eerst een globaal [opzetje](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/ADS%20Paper%20Opzet.pdf) gemaakt voor de groep met de omschrijving van de informatie die in elk hoofdstuk wordt verwacht. Ook heb ik een [voorbeeld verslag](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/ADS%20(Voorbeeld)Paper%20Hidde%20Franke.pdf) geschreven waar de meeste mensen wat aan hadden voor het schrijven van hun hoofdstuk. Het eindresultaat van het verslag bestaat uit een combinatie van werken van de groepsleden.
+Zoals in het kopje [Research Project](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#research-project) besproken is, heb ik met mijn projectgroep een verslag geschreven over het Cofano project. Voordat dit verslag tot stand kwam heb ik eerst een globaal [opzetje](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/ADS%20Paper%20Opzet.pdf) gemaakt voor de groep met de omschrijving van de informatie die in elk hoofdstuk wordt verwacht. Ook heb ik een [voorbeeld verslag](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/ADS%20(Voorbeeld)Paper%20Hidde%20Franke.pdf) geschreven waar de meeste mensen wat aan hadden voor het schrijven van hun hoofdstuk. Het eindresultaat van het verslag bestaat uit een combinatie van alle werken van de groepsleden.
 
 
 # Bibliografie
