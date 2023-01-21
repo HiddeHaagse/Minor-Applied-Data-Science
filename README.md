@@ -89,12 +89,7 @@ Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten conta
 - Supply Chain Management: een principe waarbij door middel van het verbeteren van processen en samenwerking met leveranciers en afnemers een betere functionaliteit van het deelnemende bedrijf in de keten ontstaat.
 - Action Space: Definieert de karakteristieken van actieruimte voor de environment. In mijn code bestaat dit uit de range van containers waar de agent uit kan kiezen.
 - Observation Space:  Definieert zowel de structuur als de legitieme waarden voor de observatie van de toestand van de environment. In mijn code bestaat dit uit de environment waarin wordt gewerkt, voor een drie bij drie matrix gaat het om een box van drie bij drie
-
-
-***~~Inboxen vindt plaats als er aan beide lange zijdes (ook bij een lagere stapel), van een container, een container staat van een ander nummer. De stacker kan niet meteen bij de geïnitieerde container, maar heeft daar een extra stap voor nodig.
-Daarnaast is het belangrijk dat er geen gaten ontstaan tussen containers bij het plaatsen van de containers.
-~~***
-
+- Inboxfunctie: Inboxen vindt plaats als er aan beide lange zijdes, van een container, een container staat van een ander nummer. De stacker kan dan niet meteen bij de geïnitieerde container, maar heeft daar een extra stap voor nodig. Daarnaast is het belangrijk dat er geen gaten ontstaan tussen containers bij het plaatsen van de containers.
 
 ## Data Preprocessing
 [Notebook](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/Portfolio%20(Data%20Preprocessing).ipynb) 
