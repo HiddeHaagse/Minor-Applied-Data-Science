@@ -72,14 +72,6 @@ RL is een type machine learning-algoritme dat agents in staat stelt om te leren 
 
 Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers in een haventerminal te optimaliseren. De agent is getraind om factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting in acht te nemen, om de meest optimale plaatsing van containers te vinden, waar de stacker elke container kan pakken die hij wil zonder extra stappen te doen. De stacker pakt containers op de horizontale as. Wanneer het model een container op een plek plaatst waar al een container staat of een gelieve container inboxt, krijgt het een negatieve beloning. Zodra de agent een container goed plaatst, bijvoorbeeld naast of op een andere gelieve container, krijgt het een positieve belonging. Nu heb ik het model nog twee extra manieren gegeven om een hogere score te behalen. Dit is wanneer de agent een volledige rij vult met dezelfde containers en het krijgt een minpunt als de rij met meer dan 2 verschillende containers is gevuld. Dit zal de variatie per rij laag houden en dus dezelfde containers dicht bij elkaar zetten. Zie voor verdere uitwerking de [Notebook](www.google.com). Zo leert het model om de haventerminal zo efficiënt mogelijk in te richten.
 
-### Terminologie
-***~~Aan het model wordt ook een observation space meegegeven, deze observation space bestaat uit de environment waarin wordt gewerkt, voor een drie bij drie matrix gaat het om een box van drie bij drie, en het nummer van de container die geplaatst gaat worden.***
--Action Space
--Inboxen vindt plaats als er aan beide lange zijdes (ook bij een lagere stapel), van een container, een container staat van een ander nummer. De stacker kan niet meteen bij de geïnitieerde container, maar heeft daar een extra stap voor nodig.
-Daarnaast is het belangrijk dat er geen gaten ontstaan tussen containers bij het plaatsen van de containers.
-~~***
-
-
 ### Literatuur
 In dit literatuuronderzoek zullen we de keuzes die zijn gemaakt in het Cofano project onderbouwen met behulp van relevante literatuur. Zie [bibliografie](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#bibliografie).
 
@@ -92,6 +84,13 @@ Daarnaast, heb ik extra beloningen en straffen geïmplementeerd voor het plaatse
 Om deze "steps" te evalueren heb ik voor een Proximal Policy Optimization (PPO) agent gekozen voor de stabiliteit van de clip functie bij het trainen. Op aanbeveling van het experiment van *~~Duan, Chen, Houthooft, Schulman, Abbeel (2016)~~* heb ik geen Advantage Actor-Critic (A2C) agent gebruikt omdat PPO simpelweg beter presteert. Het verschil is dat het A2C-model agressiever zoekt naar een verbetering. Dit zien we dan ook terug in de value loss van het A2C-model vergeleken met het PPO-model. Uiteindelijk heb ik beide modellen uitgeprobeerd en is er voor dit project gekozen voor het PPO-model omdat hier de beste resultaten uit voort kwamen.
 
 Tot slot, heb ik een random containerlijst geïmplementeerd met de soorten containers die beschikbaar zijn voor plaatsing. Dit is consistent met de aanbevelingen van *Euchi, Moussi, Ndiaye, and Yassine (2016)* die een ant colony optimization benadering gebruiken voor het oplossen van het containerstapelingsprobleem in Le Havre Seaport Terminal.
+
+### Terminologie
+***~~Aan het model wordt ook een observation space meegegeven, deze observation space bestaat uit de environment waarin wordt gewerkt, voor een drie bij drie matrix gaat het om een box van drie bij drie, en het nummer van de container die geplaatst gaat worden.***
+-Action Space
+-Inboxen vindt plaats als er aan beide lange zijdes (ook bij een lagere stapel), van een container, een container staat van een ander nummer. De stacker kan niet meteen bij de geïnitieerde container, maar heeft daar een extra stap voor nodig.
+Daarnaast is het belangrijk dat er geen gaten ontstaan tussen containers bij het plaatsen van de containers.
+~~***
 
 
 ## Data Preprocessing
