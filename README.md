@@ -138,6 +138,10 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 ## Communication
 ### Presentaties
+Ik heb meerdere keren gepresenteerd tijdens de minor. Meerdere malen voor internen en een enkele keer voor externen.
+- [Intern Foodboost 19-09-2022]()
+- [Intern Foodboost 03-10-2022]()
+- [Extern Foodboost 07-10-2022]()
 
 
 ### Verslag
