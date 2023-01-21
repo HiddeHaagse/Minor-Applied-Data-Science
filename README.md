@@ -64,6 +64,7 @@ We ontwikkelde een Reinforcement Learning-model om het probleem van het optimaal
 
 ### Planning
 Het onderzoekproject werd de meeste tijd indivudueel bekeken. We hebben vaak het probleem individueel aangepakt en hierbij de beste oplossing verder uitgewerkt. Zo vulden we elkaar aan om onderwerpen toe te voegen waar de ander niet op was gekomen. Er is in dit project geen gebruik gemaakt van een Scrum board. Dit bleek voor ons niet fijn te werken aangezien de individuele uitwerking geen invloed zou hebben op andermans werk. De deadlines voor de uitwerkingen en de taakverdeling werd uitgewerkt via Microsoft Teams en Whatsapp. Deze aanpak hielp ons om te richten op de hoofddoelen en resultaten op een tijdige en efficiënte manier te leveren.
+[Link Scrum Board](https://trello.com/invite/b/KkauUOva/ATTIa5bb61e1949ad898fb9c1cc8f9fc3b3f095EF43D/applied-data-science)
 
 ### Conclusie
 In conclusie hebben we met succes een Reinforcement Learning-model ontwikkeld om de stapelbeweging in containerterminals optimaal toe te wijzen. Het model bleek schaalbaar te zijn en in staat om grotere yards, meer containers en schepen aan te kunnen en om optimale oplossingen te genereren voor yards van verschillende groottes. De resultaten van de studie hebben aangetoond dat dit model het aantal stappen voor containerbeweging significant kan verminderen in vergelijking met een handmatige methode in combinatie met een random container volgorde. ~~Toekomstig onderzoek zou zich moeten richten op het testen van het model onder echte omstandigheden en het onderzoeken hoe het model kan worden aangepast om meer complexe containerbewegingsscenario's aan te kunnen.~~
@@ -135,7 +136,10 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 
 
 ## Communication
-[Link Scrum Board](https://trello.com/invite/b/KkauUOva/ATTIa5bb61e1949ad898fb9c1cc8f9fc3b3f095EF43D/applied-data-science)
+### Presentaties
+
+### Verslag
+
 
 - Evalutatie groepsproject als geheel
 
