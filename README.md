@@ -61,7 +61,7 @@ Daarnaast heb ik verschillende modellen met elkaar vergeleken en de verschillen 
 
 
 ## Domain Knowledge
-[Notebook](www.google.com)
+[Notebook](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/Portfolio%20(Domain%20Knowledge).ipynb)
 
 ### Introductie Cofano Project
 Optimalisatie van containerplaatsing is een cruciaal aspect van logistiek en supply chain management, met name in de context van haventerminals. De efficiënte plaatsing en organisatie van containers is essentieel voor een soepele en tijdige bedrijfsvoering in deze faciliteiten. Maar het vinden van de optimale plaatsing van containers in een haventerminal kan een uitdaging zijn, omdat er rekening moet worden gehouden met factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting.
@@ -72,6 +72,7 @@ RL is een type machine learning-algoritme dat agents in staat stelt om te leren 
 
 Cofano's oplossing maakt gebruik van een RL-agent om de plaatsing van containers in een haventerminal te optimaliseren. De agent is getraind om factoren zoals toegankelijkheid, stapeltoepassing, tijdsbestek en ruimtebenutting in acht te nemen, om de meest optimale plaatsing van containers te vinden, waar de stacker elke container kan pakken die hij wil zonder extra stappen te doen. De stacker pakt containers op de horizontale as. Wanneer het model een container op een plek plaatst waar al een container staat of een gelieve container inboxt, krijgt het een negatieve beloning. Zodra de agent een container goed plaatst, bijvoorbeeld naast of op een andere gelieve container, krijgt het een positieve belonging. Nu heb ik het model nog twee extra manieren gegeven om een hogere score te behalen. Dit is wanneer de agent een volledige rij vult met dezelfde containers en het krijgt een minpunt als de rij met meer dan 2 verschillende containers is gevuld. Dit zal de variatie per rij laag houden en dus dezelfde containers dicht bij elkaar zetten. Zie voor verdere uitwerking de [Notebook](www.google.com). Zo leert het model om de haventerminal zo efficiënt mogelijk in te richten.
 
+### Terminologie
 ***~~Aan het model wordt ook een observation space meegegeven, deze observation space bestaat uit de environment waarin wordt gewerkt, voor een drie bij drie matrix gaat het om een box van drie bij drie, en het nummer van de container die geplaatst gaat worden.***
 -Action Space
 -Inboxen vindt plaats als er aan beide lange zijdes (ook bij een lagere stapel), van een container, een container staat van een ander nummer. De stacker kan niet meteen bij de geïnitieerde container, maar heeft daar een extra stap voor nodig.
