@@ -140,47 +140,7 @@ De Users worden geplitst in TrainUsers (60%), ValidateUsers (20%) en TestUsers (
 ### Presentaties
 
 ### Verslag
-Zoals in het kopje [Research Project](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#research-project) besproken is, heb ik met mijn projectgroep een verslag geschreven over het Cofano project. Voordat dit verslag tot stand kwam heb ik eerst een opzetje gemaakt voor de groep met de omschrijving van de informatie die in elk hoofdstuk wordt verwacht. Dit is het opzetje:
-
-Titelpagina
-
-(voorwoord)/samenvatting in dit geval beter
-
-Introductie:
--	Onderwerp, doelstelling:
-    - Bedrijf benoemen en dat zij zoeken naar methode tackelen container probleem (uitleg stackers en zo min mogelijk zetten en dus tijd). Doel van dit       onderzoek automatisering voor het vinden optimale indeling kade. 
-    - Probleemstelling
--	Literatuur: Ook pogingen die voor ons al gedaan zijn, papers die eerder op dit gebied iets hebben gedaan
--	Onze aanpak/doelstelling + Onderzoeksvraag + Deelvragen
--	Leeswijzer
-
-Onderzoeksopzet:
--	Verwijzen naar wat je handig leek te gebruiken
--	Geen uitleg over RL etc.
--	Welk model heb je gekozen en waarom
--	En bijv waarom je RL wil gebruiken mag wel
--	Dataverzamelingsmethoden
--	Meetinstrumenten
--	Data omschrijven. Er was beschikbare data, niet geschikt voor ons probleem. Zelf simuleren data: ….
--	RL en modellen koppelen aan ons probleem (uitleggen hoe we het toepassen). Wat je doet met gevonden theorie
-
-Onderzoeksresultaten:
--	Introductie
--	Verzamelde data
--	Analyse
--	Conclusie
--	(per deelvraag)
-
-Conclusie:
--	Antwoord onderzoeksvraag
-
-Discussie: in 2 hoofstukken
--	Interpretatie resultaten
--	Aanbeveling (mogelijk vervolgonderzoek)/FUTURE WORKS
-
-Literatuurlijst
-- MOET IN APA FORMAAT!!!!!!
-
+Zoals in het kopje [Research Project](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/README.md#research-project) besproken is, heb ik met mijn projectgroep een verslag geschreven over het Cofano project. Voordat dit verslag tot stand kwam heb ik eerst een globaal [opzetje](www.google.com/) gemaakt voor de groep met de omschrijving van de informatie die in elk hoofdstuk wordt verwacht.
 
 
 
