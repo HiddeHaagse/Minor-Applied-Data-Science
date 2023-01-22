@@ -18,28 +18,6 @@ We hebben een reinforcement learning model gemaakt waarbij de environment een 3 
 ### Project 4: Uitbreiding Cofano
 Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid complexer te maken. De ene helft van de groep ging proberen het 2D vlak te vergroten door bijvoorbeeld een 5 bij 5 matrix zo efficient mogelijk te vullen en de andere helft ging proberen een 3D model te maken waarbij er boxen op elkaar geplaatst konden worden. Uiteindelijk is er een model gebouwd dat in alle twee de uitbreidingen efficiënte opstellingen genereerd.
 
-~~
-- Domain Knowledge (Literature, jargon, evaluation, existing data sets, ...)
-- Predictive Models
-- Data preparation
-- Data Visualization
-- Data collection
-- Evaluation
-- Diagnostics of the learning process
-- Communication (presentations, summaries, paper, ...)
-- Link to the Python Notebooks you have finished (you can dump them to PDF)
-- List the tickets from the Scrum backlog that you worked on, linked to deliverables, own experiments, etc.
-- Add any other assignment you feel is evidence of your abilities
-
-
-- Reflectie contributie groepsprojecten
-- Reflectie eigen leerobjecten
-- Evalutatie groepsproject als geheel
-~~
-
-
-
-
 # Portfolio
 ## Research Project
 In de minor hebben we als groep gekozen om het Cofano project in een verslag uit te werken. Het verslag is hier te vinden: [Link](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/PaperADS.pdf). In dit stuk van de portfolio zal ik mijn extra (persoonlijke) toevoeging geven van het verslag.
