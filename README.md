@@ -20,7 +20,7 @@ Nadat het vullen van een 3 bij 3 matrix was gelukt gingen we proberen de grid co
 
 # Portfolio
 ## Research Project
-In de minor hebben we als groep gekozen om het Cofano project in een verslag uit te werken. Het verslag is hier te vinden: [Link](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/PaperADS.pdf). In dit stuk van de portfolio zal ik mijn extra (persoonlijke) toevoeging geven van het verslag.
+In de minor hebben we als groep gekozen om het Cofano project in een verslag uit te werken. Het verslag is hier te vinden: [Link](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/Projectgroep%201%20Research%20Paper.pdf). In dit stuk van de portfolio zal ik mijn extra (persoonlijke) toevoeging omschrijven van het verslag.
 
 ### Context en probleemdefinitie
 In het veld van containerterminaloperaties is er een constant streven om processen te optimaliseren om de tijd die schepen aan de kade doorbrengen te minimaliseren en de kosten zo laag mogelijk te houden. Een dergelijk proces is het verplaatsen van containers, dat gewoonlijk wordt gedaan met behulp van stackers. Het doel van dit onderzoeksproject is om een methode te ontwikkelen voor het optimaal toewijzen van stapelbeweging om het aantal stappen dat nodig is om containers voor verdere vervoer te verplaatsen, te minimaliseren.
