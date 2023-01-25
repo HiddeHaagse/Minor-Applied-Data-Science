@@ -2,7 +2,7 @@
 ### Hidde Franke, 19086504, Toegepaste Wiskunde
 
 ## Intro
-Ik ben de eerste twee periodes samen met groep 1 bezig geweest met het FoodBoost project en daarna de laatste 2 periodes aan het Cofano project gewerkt.  In dit portfolio zal ik meerdere voorbeelden noemen van het werk dat ik heb verricht tijdens de minor. Deze voorbeelden zullen in categorieën worden geplaatst zoals het nakijkmodel voorstelt. Eerst wordt het groepswerk beschreven en daarna mijn individuele toevoeging hieraan.
+Ik ben de eerste twee periodes samen met groep 1 bezig geweest met het FoodBoost project en daarna de laatste 2 periodes aan het Cofano project gewerkt. Tijdens deze projecten heb ik de cursussen op [Datacamp](https://github.com/HiddeHaagse/Minor-Applied-Data-Science/blob/main/Datacamp%20Hidde%20Franke.png) volledig afgerond. In dit portfolio zal ik meerdere voorbeelden noemen van het werk dat ik heb verricht tijdens de minor. Deze voorbeelden zullen in categorieën worden geplaatst zoals het nakijkmodel voorstelt. Eerst wordt het groepswerk beschreven en daarna mijn individuele toevoeging hieraan.
 
 ## Groepswerken
 ### Project 1: Foodboost
